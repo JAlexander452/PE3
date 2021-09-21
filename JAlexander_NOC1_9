@@ -1,0 +1,20 @@
+PVector v = new PVector(0,0);
+PVector u = new PVector(4,5);
+
+
+void add(PVector v) {
+    x = x + v.x;
+    y = y + v.y;
+ }
+
+PVector.add(v,u);
+
+
+v.add(u);
+static PVector add(PVector v1, PVector v2) {
+ 
+ 
+ 
+    PVector v3 = new PVector(v1.x + v2.x, v1.y + v2.y);
+    return v3;
+  }
